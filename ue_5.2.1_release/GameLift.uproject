@@ -1,0 +1,26 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{5A4CB71E-4BE0-AD7A-2E4E-D28B3F7BBDA8}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "GameLift",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ModelingToolsEditorMode",
+			"Enabled": true,
+			"TargetAllowList": [
+				"Editor"
+			]
+		},
+		{
+			"Name": "GameLiftServerSDK",
+			"Enabled": true
+		}
+	]
+}
